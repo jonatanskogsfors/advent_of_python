@@ -80,197 +80,420 @@ Först lite historik.
 ### Eric Wastl, 2015 
 
 <!-- Note -->
-Advent of Code kom till 2015 av en man som heter Eric Wastl.
-Han kom på idén att gör en adventskalender med programeringspussel men att det antagligen mest var hans vänner och kanske deras vänner som skulle vara intreserade.
+Upphovsmannen till Advent of Code heter Eric Wastl från ???.
+
+2015 kom han på idén att gör en adventskalender med programeringspussel. Han satte ihop en samling med uppgifter som skulle låsas upp varje dag i december fram till juldagen.
+
+När planerade hur mycket infrastruktur han behövde för projektet så tänkte han inte att någon annan en hans egna vänner och kanske några av deras vänner skulle vara intreserade. Med lite extra marginal tog han höjd för 70 användare.
 
 
 
-### 70?
-
-<!-- Note -->
-Han tog höjd för att servern han deployade på skulle klara av runt 70 deltagare.
-
-
-
-### 81
+# 70? <!-- .element style="font-size: 100%" -->
 
 <!-- Note -->
-Dagarna innan kalendern startade hade 81 personer registrerat sig men så fort första pusslet låstes upp hände det något oförutsätt.
+Dagarna innan den första luckan skulle öppnas hade 81 personer registrerat sig. 
 
 
 
-## 4 000
-
-<!-- Note -->
-Efter 12 timmar hade 4000 personer registrerat sig.
-
-
-
-## 9 000
+# 81  <!-- .element style="font-size: 150%" -->
 
 <!-- Note -->
-Efter 24 timmar var det 9000.
+Inte långt från hans beräkningar alltså.
+
+Men så fort det första pusslet låstes upp hände det något oförutsett. Intresset spred sig och efter bara 12 timmar hade...
 
 
 
-# 52 000
+# 4 000  <!-- .element style="font-size: 200%" -->
 
 <!-- Note -->
-Dagen efter 15000 och i slutet av december 52000.
+...4000 personer registrerat sig. Hoppsan!
+
+Efter 24 timmar var det...
 
 
 
-# > 1 000 000
+# 9 000  <!-- .element style="font-size: 250%" -->
+
 <!-- Note -->
-Förra året fanns det över en miljon registrerade användare.
+...9000. Eric fick bråttom att skala upp.
 
-Formen för Advent of Code är som följer
+Ytterligare en dag senare var det...
 
 
 
-![Tomten](images/santa.jpg)
+# 15 000  <!-- .element style="font-size: 300%" -->
+
+<!-- Note -->
+...15000. Och i slutet av december fanns det inte mindre än...
+
+
+
+# 52 000  <!-- .element style="font-size: 350%" -->
+
+<!-- Note -->
+...52000 användare.
+
+Helt klart hade han hittat något som intresserade programerare så han upprepade Advent of Code varje december. Förra året hade sidan...
+
+
+
+# > 1 000 000  <!-- .element style="font-size: 400%" -->
+
+<!-- Note -->
+...över en miljon registrerade användare.
+
+Och kom ihåg att målgruppen inte är internetanvändare i allmänhet utan specifikt programmerare som vill ha lite julpyssel.
+
+Uppgifterna man löser sitter ihop med en lättsam ramberättelse:
+
+
+
+![Tomten](images/santa_hat.svg#svgView(viewBox(0,0,25,25))) <!-- .element width="40%" style="filter:invert(100%)"  -->
 
 <!-- Note -->
 Det är snart jul då tomten ska dela ut julklappar världen över.
-Men varje dag uppstår det problem och vem kan lösa problem om inte en programmerare. Av en händelse är alla problem särskilt lämpade att lösa med hjälp av just programmering.
+Men varje dag uppstår det olika problem och vem kan lösa problem om inte en...
+
+
+
+![Programmerare](images/programmer.svg#svgView(viewBox(0,0,180,180))) <!-- .element width="30%" style="filter:invert(100%)"  -->
+
+<!-- Note -->
+...programerare. Av en händelse är alla problem särskilt lämpade att lösa med hjälp av just programmering.
+Här kommer du in.
 
 
 
 ![Kalender](images/kalender.png) <!-- .element height="50%" width="50%" -->
 
 <!-- Note -->
-Här kommer du in. Varje dag från 1 till 25 december släpps en tvådelad uppgift. Förutom beskrivning av problemet får man en fil med indata. Svaret ges genom att man fyller i något, ett nummer eller en textstäng.  Den första uppgiften är i regel mer grundläggande och när du har löst den får du en fortsättningsuppgift som bygger vidare på samma koncept. De första dagarna är enklare men för varje dag ökar svårighetsdagen och i slutet är det riktigt avancerat.
+Varje dag från 1 till 25 december släpps en tvådelad uppgift.
 
 
 
-# APA
+![Dag 1](images/day_1.png) <!-- .element width="50%" -->
+
+
+
+
+![Kalender](images/day_1_description.png) <!-- .element width="50%" -->
 
 <!-- Note -->
-Varje år har ett sammanhängande tema.
+Det finns en beskrivning av problemet.
+
+
+
+![Kalender](images/day_1_example.png) <!-- .element width="50%" --> 
+ 
+<!-- Note -->
+Några enkla exempel.
+
+
+
+![Kalender](images/day_1_question.png) <!-- .element width="50%" -->
+
+<!-- Note -->
+En konkret fråga.
+
+
+
+![Kalender](images/day_1_input.png) <!-- .element width="50%" -->
+
+<!-- Note -->
+En länk till en textfil med indata.
+
+
+
+![Kalender](images/day_1_answer.png) <!-- .element width="50%" -->
+
+<!-- Note -->
+Och till sist en rutan där man ska ange svaret. Svaret är alltid ett nummer eller en textstäng.
+
+Löser man den första uppgiften får man en stjärna och en följduppgift.
+
+
+
+![Stjärna](images/star.svg#svgView(viewBox(0,0,130,120))) <!-- .element width="20%" style="filter: invert(94%) sepia(47%) saturate(838%) hue-rotate(340deg) brightness(108%) contrast(103%);"  -->
+
+<!-- Note -->
+
+Löser man den får man...
+
+
+
+![Stjärna](images/star.svg#svgView(viewBox(0,0,130,120))) <!-- .element width="20%" style="filter: invert(94%) sepia(47%) saturate(838%) hue-rotate(340deg) brightness(108%) contrast(103%);"  -->
+![Stjärna](images/star.svg#svgView(viewBox(0,0,130,120))) <!-- .element width="20%" style="filter: invert(94%) sepia(47%) saturate(838%) hue-rotate(340deg) brightness(108%) contrast(103%);"  -->
+
+<!-- Note -->
+...en andra stjärna och sedan är dagen slut. Allt som allt blir det 50 stjärnor per år.
+
+
+
+![Avancera](images/advance.svg#svgView(viewBox(0,0,100,100))) <!-- .element width="40%" style="filter:invert(100%)"  -->
+
+<!-- Note -->
+Den första uppgiften är mer grundläggande och den andra bygger vidare på samma koncept. Beroende på hur man har valt att lösa den första uppgiften kan det hända att den andra blir trivial att lösa med samma kod eller att man måste börja om från början. Oftast är det någonstans där emellan.
+
+På samma sätt tenderar uppgifterna att bli svårare för varje dag. De senare uppgifterna är ofta rejäla utmaningar som bara ett fåtal av alla användare lyckas lösa.
+
+Handlingsmässigt har varje år ett sammanhängande tema.
+
+
+
+![](images/saturn.svg#svgView(viewBox(0,0,150,100))) <!-- .element width="25%" style="filter:invert(100%)"  -->
+![](images/submarine.svg#svgView(viewBox(0,0,150,100))) <!-- .element width="25%" style="filter:invert(100%)" -->
+![](images/djungle.svg#svgView(viewBox(0,0,150,100))) <!-- .element width="25%" style="filter:invert(100%)" -->
+
+<!-- Note -->
 Tomten har varit strandsatt ute i rymden
 Nyckeln till tomtens släde har tappats ner i havet och behövt räddas med ubåt.
 Renarna har behövt vara på bete i djungeln för att få i sig magisk stjärnfrukt.
 
 
 
+![Förstoringsglass](images/looking_glass.svg#svgView(viewBox(0,0,250,250))) <!-- .element width="25%" style="filter:invert(100%)" -->
 
 <!-- Note -->
-Men det är också så att det finns teman på själva uppgifterna. Tidiga uppgifter blir ofta en introduktion till mer avancerade uppgifter senare i månaden.
+Men det är också så att det finns återkommande teman på själva uppgifterna.
 
+Tidiga uppgifter blir ofta en introduktion till mer avancerade uppgifter senare i månaden. Man belönas därför på sätt och vis om man tar sig tid att tänka igenom även de lättare uppgifterna mer analystiskt.
+
+
+
+![Varninsskylt](images/warning.svg#svgView(viewBox(0,0,100,100))) <!-- .element width="25%" style="filter:invert(100%)" -->
 
 <!-- Note -->
-Ofta händer det att problemen till en början verkar lätta att lösa. Man knäpar ihop en lösning som funkar jättebra med exempeldata som uppgiften har. Men när man sedan kör koden på den riktiga indatan visar det sig att det kommer ta flea år för datorn att räkna klart eller att allt minne snabbt tar slut. Kruxet är att komma på smartare algoritmer och mer effektiva datastrukturer.
+Problemen har ofta en finurlig twist. Det är inte ovanligt att de till en början verkar lätta att lösa. Man knåpar ihop en lösning som funkar jättebra med exempeldatat. Men när man sedan kör koden på den riktiga indatan....
 
+
+
+![Aktivitet](images/waiting.svg#svgView(viewBox(0,0,100,100))) <!-- .element width="25%" style="filter:invert(100%)" -->
+
+<!-- Note -->
+Då står datorn bara och snurrar. När man undersösker saken lite närmre visar det sig att det kommer ta flera år för datorn att räkna klart.
+
+Eller annars kanske det är allt minne som snabbt tar slut.
+
+Kruxet är att komma på smartare algoritmer och mer effektiva datastrukturer.
+
+
+
+# Är det en tävling?
 
 <!-- Note -->
 Är det en tävling?
 
 
-<!-- Note -->
-Visst, om man verkligen vill kan man försöka bli klar snabbast. De 100 första som löser uppgiften i världen får poäng. Man kan skapa egna grupper och där får man poäng inom sin grupp på samma sätt.
-Men
 
+# Kanske?
 
 <!-- Note -->
-Uppgifterna släpps vid midnatt amerikansk östkusttid. Det är 06:00 svensk tid. Personligen är jag inte intresserad av tävlingen: Vem kan gå upp först. 
-Dessutom handlar det mer om uthållighet. Att lösa en uppgift är inte det svåra. All lösa 50 uppgifter är svårt. Förra året var det 288538 som löste den allra första uppgiften men bara 12893, drygt 4 %, som löste den sista.
+Visst, om man verkligen vill kan man försöka bli klar snabbast. De 100 första som löser uppgiften i världen får poäng.
 
+Man kan okcså skapa egna grupper och där får man poäng inom sin grupp på samma sätt.
+Men...
+
+
+
+![Sova](images/sleeping.svg#svgView(viewBox(0,0,450,400))) <!-- .element width="40%" style="filter:invert(100%)" -->
 
 <!-- Note -->
-Det finns heller inga strikta regler. Visst, eftersom alla får unik input och därmed unika svar så kan man inte skriva in någon annans lösning. Men, det finns inget som hindrar att man lassar ner någon annans kod och kör sin egen input på.
+Uppgifterna släpps vid midnatt amerikansk östkusttid. Det är kl 06:00 svensk tid.
 
+Personligen är jag inte intresserad av tävlingen: Vem kan gå upp först. 
+
+Dessutom handlar det mer om uthållighet. Att lösa en uppgift är inte det svåra. All lösa 50 uppgifter är svårt. Förra året var det 288538 som löste den allra första uppgiften men bara 12893, drygt 4%, som löste den sista.
+
+
+
+![Vågskål](images/justice.svg#svgView(viewBox(0,0,100,100))) <!-- .element width="40%" style="filter:invert(100%)" -->
+
+<!-- Note -->
+Det finns heller inga strikta regler.
+
+Alla får unik input och därmed unika svar så kan man inte skriva in någon annans lösning.
+
+Men, det finns inget som hindrar att man laddar ner någon annans kod och kör med sin egen input.
+
+
+
+![Robot](images/c3p0.svg#svgView(viewBox(0,0,100,100))) <!-- .element width="40%" style="filter:invert(100%)" -->
 
 <!-- Note -->
 Eric Wastl vädjar att man ska undvika att lösa problemen med AI innan de första hundra har löst uppgiften. Men efter det är det fritt fram.
 
+Låt mig erbjuda ett annat perspektiv:
+
+
+
+# Är det en tävling?
 
 <!-- Note -->
-Låt mig erbjuda ett annat perspektiv.
 Är det en tävling?
 
+
+
+# JA!
 
 <!-- Note -->
 JA
 
 
+
+# Vem tävlar du mot?
+
 <!-- Note -->
 Vem tävlar du mot?
 
+
+
+![Pekfinger](images/you.svg#svgView(viewBox(0,0,100,100))) <!-- .element width="50%" style="filter:invert(100%)" -->
 
 <!-- Note -->
 Dig själv
 
 
+
+# Vad är reglerna?
+
 <!-- Note -->
 Vad är reglerna?
 
 
-<!-- Note -->
-De du själv vill ha.
 
+# Det är upp till dig
+
+<!-- Note -->
+Det är upp till dig.
+
+
+
+![Python](images/python.svg#svgView(viewBox(0,0,125,115))) <!-- .element width="20%" -->
+![C](images/c.svg#svgView(viewBox(0,0,40,40))) <!-- .element width="20%" -->
+![Rust](images/rust.svg#svgView(viewBox(0,0,110,110))) <!-- .element width="20%" style="filter:invert(100%)" -->
 
 <!-- Note -->
 En del väljer att lösa problemen med ett specifikt programmeringsspråk. Det är ett utmärkt sätt att lära sig ett nytt språk eller att slipa på språk man redan kan.
 
+En del utmanar sig genom att använda ett oväntat språk.
+
+
+
+![Excel](images/excel.svg#svgView(viewBox(0,0,2700,2700))) <!-- .element width="30%" -->
 
 <!-- Note -->
-En del utmanar sig genom att använda ett väldigt oväntat språk. T.ex. finns det de som använder Excel.
+T.ex. finns det de som använder Excel.
 
 
+
+![Mind blown](images/exploding_head.svg#svgView(viewBox(0,0,110,110))) <!-- .element width="40%" style="filter:invert(100%)" -->
 
 <!-- Note -->
 Några byter språk varje dag.
 
 
 
-<!-- Note -->
-En del skriver ett eget språk.
-
-
+![Santa-lang](images/santa_lang.png) <!-- .element width="50%" -->
 
 <!-- Note -->
-En del kommer säga till er att ett visst språk är bättre för att lösa Advent of Code. Då är det bara att nicka och le tills den där rust programmeraren lämnat rummet.
+Det finns det som skapar ett eget språk specifikt för Advent of Code.
 
 
+
+![Willy Wonka](images/wonka.jpg) <!-- .element width="50%" -->
 
 <!-- Note -->
-Om man av någon anledning jagar millisekunder så kommer vissa språk så klart att vara snabbare än andra. Men det som avgör mest är vilka algoritmer man väljer. "Rätt" lösning i ett långsamt språk vinnar med astronomiska hästlängder över "Fel" lösning i ett väldigt snabbt språk.
+En del kommer säga till dig att ett visst språk är bättre för att lösa Advent of Code.
 
+Då är det bara att nicka och le tills den där rust programmeraren lämnat rummet.
+
+
+
+![Tidtagarur](images/stopwatch.svg#svgView(viewBox(0,0,13,13))) <!-- .element width="40%" style="filter:invert(100%)" -->
+
+<!-- Note -->
+Om man av  jagar millisekunder så kommer vissa språk så klart att vara snabbare än andra. Men det som avgör mest är vilka algoritmer man väljer.
+
+"Rätt" lösning i ett långsamt språk vinner med hästlängder över "Fel" lösning i ett väldigt snabbt språk.
+
+
+
+![Python](images/python.svg#svgView(viewBox(0,0,125,115))) <!-- .element width="40%" -->
 
 <!-- Note -->
 Själv brukar jag skriva i Python och ofta har jag begränsat mig själv till att bara använda standardbiblioteket.
 
+Jag är inte unik på något sätt.
+
+Det finns ingen officiell statistik, men genom att analysera publika github-repon taggade med AdventOfCode verkar det som att det allra populäraste språket är Python.
+
+
+
+![Språkstatistik](images/popular_languages.png) <!-- .element width="50%" -->
+
+https://masalmon.eu/2018/12/15/adventofcode/
 
 <!-- Note -->
-Jag är inte unik på något sätt.
-Det finns ingen officiell statistik men genom att analysera publika githubrepon verkar det som att det allra populäraste språket är Python.
+Här är ett godtyckligt diagram. Källa internet.
 
+
+
+# Verktyg och strategier
 
 <!-- Note -->
 Några tips om verktyg och strategier
 
 
-<!-- Note -->
-GitHub
-Vad du än gör, spara undan din kod. Och gör den gärna publik. Det behöver verkligen inte vara polerat. Du behöver inte skämmas över koden, du behöver inte skämmas om ligger efter eller inte blir klar.
 
-
-<!-- Note -->
-Jag rekommenderar att man går med i r/adventofcode
-Där diskuteras problemen. Folk hjälper varandra. För den som vill kan man läsa sida efter sida med konkreta lösningar i alla tänkbara språk.
-
-
+![Octocat](images/github-mark-white.svg) <!-- .element width="25%" --> <br/>
+![GitHUb](images/GitHub_Logo_White.png) <!-- .element width="25%" -->
 
 <!-- Note -->
-Många lägger upp snygga visualiseringar av problemen.
+Hur du än än jobbar: Spara din kod. Och gör den gärna publik på GitHub.
 
+Det behöver verkligen inte vara polerat. Du behöver inte skämmas över koden eller för hur många uppgifter du löst.
+
+
+
+r/adventofcode
+
+<!-- Note -->
+Jag rekommenderar starkt att man går med i r/adventofcode på Reddit.
+
+Där diskuteras problemen. Folk hjälper varandra.
+
+För den som vill kan man läsa sida efter sida med konkreta lösningar i alla tänkbara språk.
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QIhoGfhb6CY?si=CwDTlbBNqUmZ0_uz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<!-- Note -->
+Många lägger upp visualiseringar av problemen.
+
+
+
+![Trender](images/trends.webp) <!-- .element width="75%" -->
+
+<!-- Note -->
+Lite aktuella söktrender på google
+
+
+
+![Meme](images/meme_1.jpg) <!-- .element width="75%" -->
 
 <!-- Note -->
 Och framför allt. Skoj och memes.
 
+Hundratusentals programmerare över hela världen får plötsligt en massa internskämt.
+
+
+
+![Jupyter]()
 
 <!-- Note -->
-Om du inte specifikt vill träna på att kodarkitektur så är det väldigt smidigt att använda Jupyter Notebook.
+Om du inte specifikt vill träna på att kodarkitektur så är det väldigt smidigt att använda Jupyter lab.
 
 
 <!-- Note -->

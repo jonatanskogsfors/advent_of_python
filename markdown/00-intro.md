@@ -3,89 +3,155 @@ Lär dig något nytt genom att försätta dig i trams
 
 * * *
 
-Jonatan Skogsfors 
+Jonatan Skogsfors
+[@jonatanskogsfors@mastodon.social](https://mastodon.social/@jonatanskogsfors)
 
 Python Linköping Meetup | 2023-11-29
 
 <!-- Note -->
 En introduktion till Advent of Code och hur du kommer igång med hjälp av Python.
 
-
-### "Nobody actually creates perfect code the first time around, except me. But there's only one of me"
-
-<!-- Note -->
-"Nobody actually creates perfect code the first time around, except me. But there's only one of me"
-
-Sagt, såklart, av Linus Torvalds, skaparen av Linux.
-
-Med andra ord kan vi andra andas ut, Vi har ingen press på oss att vara perfekta. Vi har alla varit eller är nybörjare och oavsett hur länge man håller på finns det alltid något nytt att lära sig. Eller för att citera en lite mer nyanserad poet än Linus, Tomas Tranströmmer.
+Låt mig börja med ett citat.
 
 
-### "Du blir aldrig färdig och det är som det skall"
 
-Tomas Tranströmmer
+> "Nobody actually creates perfect code the first time around, except me. <br/>
+> But there's only one of me"
+
+— Linus Torvalds
 
 <!-- Note -->
-"Du blir aldrig färdig och det är som det skall"
-Tomas Tranströmmer
+Med andra ord kan vi andra andas ut, Vi har ingen press på oss att vara perfekta.
+Vi har alla varit eller är nybörjare och oavsett hur länge man håller på finns det alltid något nytt att lära sig.
 
-Alla produktägare håller kanske inte med om det.
+Eller för att citera en lite mer nyanserad poet än Linus, Tomas Tranströmmer.
 
 
-## Hur lär man sig att bli en bättre programmerare?
+
+> "Du blir aldrig färdig <br/>
+> och det är som det skall"
+
+— Tomas Tranströmmer
 
 <!-- Note -->
-Men Hur lär man sig att bli en bättre programmerare?
+Ja, alla produktägare håller kanske inte med om det.
 
 
-- Kurser
-- Läsa böcker
+
+## Hur blir man en bättre programmerare?
+
 <!-- Note -->
-Man kan gå kurser och läsa böcker. Det kanske man sällan tar sig tiden till efter sin utbildning.
+Men blir man då en bättre programmerare?
 
 
-- Arbete
-- Hobbyprojekt
+
+## Kurser
+## Böcker
+
+<!-- Note -->
+Man kan gå kurser, man läsa böcker.
+
+Men det kan vara svårt att ta sig den tiden till efter ens utbildning.
+
+
+
+## Arbete
+## Hobbyprojekt
 
 <!-- Note -->
 Genom sitt arbete lär man sig såklart en massa 
-och man kan ha egna hobbyprojetkt,
+och man kan ha egna hobbyprojetkt på sin fritid.
 
 Men det är lätt hänt att man mest lär sig att lösa precis de uppgifter man får framför sig.
+Hur lär man sig att bli en mer komplett programmerare?
 
 
-# Advent of Code
+
+![Advent of Code](images/advent_of_code.jpeg)
+
 <!-- Note -->
-Här kommer Advent of Code in
+Här kommer Advent of Code in.
+
+Först lite historik.
+
 
 
 ![Eric Wastl](https://pbs.twimg.com/profile_images/1099812161700937729/Rgi3F1jI_400x400.png)
-### Eric Wastl 2015 
+### Eric Wastl, 2015 
 
 <!-- Note -->
-
 Advent of Code kom till 2015 av en man som heter Eric Wastl.
 Han kom på idén att gör en adventskalender med programeringspussel men att det antagligen mest var hans vänner och kanske deras vänner som skulle vara intreserade.
 
 
+
+### 70?
+
 <!-- Note -->
 Han tog höjd för att servern han deployade på skulle klara av runt 70 deltagare.
-Dagarna innan kalendern startade hade 81 personer registrerat sig men så fort första pusslet låstes upp hände det något oförutsätt. Efter 12 timmar hade 4000 personer registrerat sig. Efter 24 timmar var det 9000. Dagen efter 15000 och i slutet av december 52000.
 
-Förra året över en miljon användare.
 
+
+### 81
 
 <!-- Note -->
-Formen för Advent of Code är som följer:
+Dagarna innan kalendern startade hade 81 personer registrerat sig men så fort första pusslet låstes upp hände det något oförutsätt.
 
-Det är snart jul då tomten ska dela ut julklappar världen över. Men varje dag uppstår det problem och vem kan lösa problemen om inte en programmerare. Där kommer du in. Varje dag från 1 till 25 december släpps en tvådelad uppgift. Förutom beskrivning av problemet får man en fil med indata. Svaret ges genom att man fyller i något, ett nummer eller en textstäng.  Den första uppgiften är i regel mer grundläggande och när du har löst den får du en fortsättningsuppgift som bygger vidare på samma koncept. De första dagarna är enklare men för varje dag ökar svårighetsdagen och i slutet är det riktigt avancerat.
 
+
+## 4 000
+
+<!-- Note -->
+Efter 12 timmar hade 4000 personer registrerat sig.
+
+
+
+## 9 000
+
+<!-- Note -->
+Efter 24 timmar var det 9000.
+
+
+
+# 52 000
+
+<!-- Note -->
+Dagen efter 15000 och i slutet av december 52000.
+
+
+
+# > 1 000 000
+<!-- Note -->
+Förra året fanns det över en miljon registrerade användare.
+
+Formen för Advent of Code är som följer
+
+
+
+![Tomten](images/santa.jpg)
+
+<!-- Note -->
+Det är snart jul då tomten ska dela ut julklappar världen över.
+Men varje dag uppstår det problem och vem kan lösa problem om inte en programmerare. Av en händelse är alla problem särskilt lämpade att lösa med hjälp av just programmering.
+
+
+
+![Kalender](images/kalender.png) <!-- .element height="50%" width="50%" -->
+
+<!-- Note -->
+Här kommer du in. Varje dag från 1 till 25 december släpps en tvådelad uppgift. Förutom beskrivning av problemet får man en fil med indata. Svaret ges genom att man fyller i något, ett nummer eller en textstäng.  Den första uppgiften är i regel mer grundläggande och när du har löst den får du en fortsättningsuppgift som bygger vidare på samma koncept. De första dagarna är enklare men för varje dag ökar svårighetsdagen och i slutet är det riktigt avancerat.
+
+
+
+# APA
 
 <!-- Note -->
 Varje år har ett sammanhängande tema.
 Tomten har varit strandsatt ute i rymden
 Nyckeln till tomtens släde har tappats ner i havet och behövt räddas med ubåt.
 Renarna har behövt vara på bete i djungeln för att få i sig magisk stjärnfrukt.
+
+
 
 
 <!-- Note -->
@@ -148,7 +214,7 @@ En del väljer att lösa problemen med ett specifikt programmeringsspråk. Det �
 
 
 <!-- Note -->
-En del utmanar sig genom att använda ett väldigt konstigt språk. T.ex. finns det de som använder Excel.
+En del utmanar sig genom att använda ett väldigt oväntat språk. T.ex. finns det de som använder Excel.
 
 
 
